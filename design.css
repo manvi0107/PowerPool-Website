@@ -369,60 +369,30 @@ hr{
     width: 50px;
     margin-right: 20px;
 }
-/* Responsive Styles */
+/* For mobile phones (480px and below) */
+@media screen and (max-width: 480px) {
+    .navbar .nav-list li {
+        display: block;
+        margin: 10px 0;
+    }
 
-/* Responsive Styles */
+    .hero h2 {
+        font-size: 1.8em;
+    }
 
-@media (max-width: 360px) {
-    /* Styles for small phones */
+    .hero p {
+        font-size: 0.9em;
     }
-@media (max-width: 480px) {
-    /* Styles for phones */
-    }
-@media (min-width: 481px) and (max-width: 768px) {
-    /* Styles for landscape phones */
-    }
-@media (min-width: 481px) and (max-width: 768px) {
-     /* Styles for portrait tablets */
-    }
-@media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for landscape tablets */
-    }
-@media (min-width: 1025px) and (max-width: 1366px) {
-        /* Styles for small laptops/desktops */
-    }
-      
-@media (min-width: 1367px) {
-        /* Styles for large desktops */
-    }
-/* Phones */
-@media (max-width: 480px) {
-    /* Styles for mobile phones */
-  }
-  
-  /* Tablets (Portrait) */
-  @media (min-width: 481px) and (max-width: 768px) {
-    /* Styles for portrait tablets */
-  }
-  
-  /* Tablets (Landscape) */
-  @media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles for landscape tablets */
-  }
-  
-  /* Laptops */
-  @media (min-width: 1025px) and (max-width: 1366px) {
-    /* Styles for laptops */
-  }
-  
-  /* Desktops */
-  @media (min-width: 1367px) {
-    /* Styles for desktops */
-  }
-  @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi) {
-    /* Styles for Retina and high-DPI devices */
-  }
 
+    .cta-button {
+        padding: 10px 20px;
+    }
 
+    .content {
+        padding: 20px 10px;
+    }
 
-
+    .card {
+        width: 100%;
+    }
+}
